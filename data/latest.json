@@ -1,7 +1,48 @@
 {
   "baseline": {
-    "baseline_run_id": null,
-    "status": "NO_COMPARABLE_BASELINE"
+    "baseline_run_id": "run-btc-radar-20260805T1454CEST",
+    "changes": {
+      "1d_atr_pct_delta": 0.0,
+      "4h_atr_pct_delta": 0.0,
+      "classification_current": {
+        "character": "CONSOLIDATION",
+        "confirmation_count": 1,
+        "confirmations": {
+          "dmi_adx": false,
+          "ema": false,
+          "obv": false,
+          "timeframe_alignment": true
+        },
+        "direction": "SIDEWAYS",
+        "method_id": "BTCRADAR_OHLCV_V0_1",
+        "method_version": "0.1.0",
+        "raw_direction_score": 0,
+        "signal_strength": "WEAK",
+        "timeframe_direction_1d": "SIDEWAYS",
+        "timeframe_direction_4h": "SIDEWAYS",
+        "timeframe_divergence": false
+      },
+      "classification_previous": {
+        "character": "CONSOLIDATION",
+        "confirmation_count": 1,
+        "confirmations": {
+          "dmi_adx": false,
+          "ema": false,
+          "obv": false,
+          "timeframe_alignment": true
+        },
+        "direction": "SIDEWAYS",
+        "method_id": "BTCRADAR_OHLCV_V0_1",
+        "method_version": "0.1.0",
+        "raw_direction_score": 0,
+        "signal_strength": "WEAK",
+        "timeframe_direction_1d": "SIDEWAYS",
+        "timeframe_direction_4h": "SIDEWAYS",
+        "timeframe_divergence": false
+      },
+      "ticker_price_delta_pct": -0.13474514750397848
+    },
+    "status": "COMPARABLE"
   },
   "classification": {
     "character": "CONSOLIDATION",
@@ -24,23 +65,23 @@
   "controls": {
     "coinbase": {
       "comparison": "PASS",
-      "difference_from_main_pct": -0.07927739301243353,
-      "obtained_at": "2026-08-05T12:54:16.875676+00:00",
-      "price": 64292.68,
-      "source_time": "2026-08-05T12:54:16.145085563Z",
+      "difference_from_main_pct": -0.07538479471259629,
+      "obtained_at": "2026-08-05T13:07:06.645916+00:00",
+      "price": 64208.55,
+      "source_time": "2026-08-05T13:07:05.542042802Z",
       "status": "A"
     },
     "coingecko": {
       "comparison": "PASS",
-      "difference_from_main_pct": 0.02379409698138879,
-      "obtained_at": "2026-08-05T12:54:17.032213+00:00",
-      "price": 64359.0,
-      "source_time": "2026-08-05T12:51:40+00:00",
+      "difference_from_main_pct": -0.029553205028742813,
+      "obtained_at": "2026-08-05T13:07:06.747883+00:00",
+      "price": 64238.0,
+      "source_time": "2026-08-05T13:05:00+00:00",
       "status": "A"
     }
   },
   "errors": [],
-  "generated_at": "2026-08-05T14:54:15.742584+02:00",
+  "generated_at": "2026-08-05T15:07:06.002447+02:00",
   "indicators": {
     "1d": {
       "adx": 19.59599495166972,
@@ -110,10 +151,10 @@
   },
   "quality_gate": "WARN",
   "raw_pack": {
-    "path": "data/raw/run-btc-radar-20260805T1454CEST.json",
-    "sha256": "74d5e8cf23ef41353427ae431d12dfdccaf974496df99213d5b35729c8ed7e28"
+    "path": "data/raw/run-btc-radar-20260805T1507CEST.json",
+    "sha256": "53d48ba6ad5fc9488073ab0de25769d2f6bb8076a9f435562f8466b04df24b1b"
   },
-  "run_id": "run-btc-radar-20260805T1454CEST",
+  "run_id": "run-btc-radar-20260805T1507CEST",
   "safety": {
     "execution_allowed": false,
     "human_gate_required": true,
@@ -131,15 +172,15 @@
   },
   "status": "COMPLETE",
   "ticker": {
-    "base_volume_24h": 29612.733288,
-    "change_24h_pct": 0.6034453374994309,
+    "base_volume_24h": 29636.406727,
+    "change_24h_pct": 0.4209720567822206,
     "high_24h": 64581.34,
     "low_24h": 63615.38,
-    "open_24h": 63957.74,
-    "price": 64343.69,
-    "quote_volume_24h": 1899720861.76494,
-    "source_time_ms": 1785934456021,
-    "trade_count_24h": 236307
+    "open_24h": 63987.62,
+    "price": 64256.99,
+    "quote_volume_24h": 1901326664.5877252,
+    "source_time_ms": 1785935225801,
+    "trade_count_24h": 237414
   },
   "timezone": "Europe/Prague"
 }
