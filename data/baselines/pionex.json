@@ -69,7 +69,7 @@
   "market": "SPOT",
   "method_id": "BTCRADAR_OHLCV_V0_1",
   "method_version": "0.1.0",
-  "run_id": "run-btc-radar-20260805T1507CEST",
+  "run_id": "run-btc-radar-20260805T1536CEST",
   "source": "PIONEX",
-  "ticker_price": 64256.99
+  "ticker_price": 63888.53
 }

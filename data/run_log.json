@@ -20,5 +20,16 @@
     "signal_strength": "WEAK",
     "source": "PIONEX",
     "status": "COMPLETE"
+  },
+  {
+    "character": "CONSOLIDATION",
+    "direction": "SIDEWAYS",
+    "generated_at": "2026-08-05T15:36:39.058530+02:00",
+    "information_risk": "MEDIUM",
+    "quality_gate": "WARN",
+    "run_id": "run-btc-radar-20260805T1536CEST",
+    "signal_strength": "WEAK",
+    "source": "PIONEX",
+    "status": "COMPLETE"
   }
 ]
