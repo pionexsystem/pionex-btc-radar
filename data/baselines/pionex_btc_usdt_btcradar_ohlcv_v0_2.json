@@ -24,14 +24,14 @@
     "pdi": 17.3346180020934
   },
   "4h": {
-    "adx": 11.89501614498721,
-    "atr14": 557.9868264548846,
-    "atr_pct": 0.8708299665204552,
+    "adx": 16.945653697811284,
+    "atr14": 577.5817024024258,
+    "atr_pct": 0.8907762142298695,
     "candle_count": 499,
-    "close": 64075.29,
-    "ema200": 64088.21694333822,
-    "ema50": 63804.03028182942,
-    "ema_spread_pct": -0.44343043864062404,
+    "close": 64840.27,
+    "ema200": 64113.224681158674,
+    "ema50": 63866.670218475665,
+    "ema_spread_pct": -0.3845610073571426,
     "evidence": {
       "dmi_sign": 0,
       "ema_sign": 0,
@@ -39,13 +39,13 @@
       "score": 1,
       "timeframe_direction": "SIDEWAYS"
     },
-    "last_complete_candle_end": "2026-08-05T11:59:59.999000+00:00",
-    "maobv30": -158417.06248626646,
-    "mdi": 16.39672666203584,
-    "obv": -142633.80414099986,
+    "last_complete_candle_end": "2026-08-05T19:59:59.999000+00:00",
+    "maobv30": -182003.2061147664,
+    "mdi": 13.658352264469697,
+    "obv": -154481.65089499977,
     "obv_direction": "UP",
     "obv_relation": "ABOVE",
-    "pdi": 21.511230587649916
+    "pdi": 25.623569647375312
   },
   "classification": {
     "character": "CONSOLIDATION",
@@ -75,7 +75,7 @@
   "market": "SPOT",
   "method_id": "BTCRADAR_OHLCV_V0_2",
   "method_version": "0.2.0",
-  "run_id": "run-btc-radar-20260805T155633CEST",
+  "run_id": "run-btc-radar-20260805T222123CEST",
   "source": "PIONEX",
-  "ticker_price": 64316.35
+  "ticker_price": 64971.71
 }
