@@ -1,6 +1,6 @@
 {
   "baseline": {
-    "baseline_run_id": "run-btc-radar-20260805T1507CEST",
+    "baseline_run_id": "run-btc-radar-20260805T1536CEST",
     "changes": {
       "1d_atr_pct_delta": 0.0,
       "4h_atr_pct_delta": 0.0,
@@ -40,7 +40,7 @@
         "timeframe_direction_4h": "SIDEWAYS",
         "timeframe_divergence": false
       },
-      "ticker_price_delta_pct": -0.5734162151074917
+      "ticker_price_delta_pct": 0.3059547621458769
     },
     "status": "COMPARABLE"
   },
@@ -65,23 +65,23 @@
   "controls": {
     "coinbase": {
       "comparison": "PASS",
-      "difference_from_main_pct": -0.10199013813589897,
-      "obtained_at": "2026-08-05T13:36:39.831253+00:00",
-      "price": 63823.37,
-      "source_time": "2026-08-05T13:36:38.381325552Z",
+      "difference_from_main_pct": -0.0989794644529085,
+      "obtained_at": "2026-08-05T13:46:40.088233+00:00",
+      "price": 64020.57,
+      "source_time": "2026-08-05T13:46:38.929971249Z",
       "status": "A"
     },
     "coingecko": {
       "comparison": "PASS",
-      "difference_from_main_pct": 0.028909727614645497,
-      "obtained_at": "2026-08-05T13:36:39.968969+00:00",
-      "price": 63907.0,
-      "source_time": "2026-08-05T13:34:00+00:00",
+      "difference_from_main_pct": 0.11391298920166992,
+      "obtained_at": "2026-08-05T13:46:40.217444+00:00",
+      "price": 64157.0,
+      "source_time": "2026-08-05T13:44:00+00:00",
       "status": "A"
     }
   },
   "errors": [],
-  "generated_at": "2026-08-05T15:36:39.058530+02:00",
+  "generated_at": "2026-08-05T15:46:39.295920+02:00",
   "indicators": {
     "1d": {
       "adx": 19.59599495166972,
@@ -151,10 +151,10 @@
   },
   "quality_gate": "WARN",
   "raw_pack": {
-    "path": "data/raw/run-btc-radar-20260805T1536CEST.json",
-    "sha256": "2da67b0e92f9c962685b9d70bd7f4634c66d99e1f28a7ecb7f88816640fe13f6"
+    "path": "data/raw/run-btc-radar-20260805T1546CEST.json",
+    "sha256": "a01b7aaabd245144a8a496a3d6b9f7d40415846415e830f86520a3920488482c"
   },
-  "run_id": "run-btc-radar-20260805T1536CEST",
+  "run_id": "run-btc-radar-20260805T1546CEST",
   "safety": {
     "execution_allowed": false,
     "human_gate_required": true,
@@ -172,15 +172,15 @@
   },
   "status": "COMPLETE",
   "ticker": {
-    "base_volume_24h": 29628.997593,
-    "change_24h_pct": -0.2031441497140407,
+    "base_volume_24h": 29478.967508,
+    "change_24h_pct": 0.225916510203783,
     "high_24h": 64581.34,
     "low_24h": 63615.38,
-    "open_24h": 64018.58,
-    "price": 63888.53,
-    "quote_volume_24h": 1900997083.8186495,
-    "source_time_ms": 1785936998461,
-    "trade_count_24h": 247907
+    "open_24h": 63939.55,
+    "price": 64084.0,
+    "quote_volume_24h": 1891452168.268382,
+    "source_time_ms": 1785937599481,
+    "trade_count_24h": 253422
   },
   "timezone": "Europe/Prague"
 }
