@@ -1,0 +1,75 @@
+{
+  "1d": {
+    "adx": 19.59599495166972,
+    "atr14": 1619.3153943050493,
+    "atr_pct": 2.525974555965956,
+    "candle_count": 499,
+    "close": 64106.56,
+    "ema200": 72708.09821933557,
+    "ema50": 64663.993814019865,
+    "ema_spread_pct": -11.063560459316902,
+    "evidence": {
+      "dmi_sign": 0,
+      "ema_sign": -1,
+      "obv_sign": 0,
+      "score": -1,
+      "timeframe_direction": "SIDEWAYS"
+    },
+    "last_complete_candle_end": "2026-08-04T23:59:59.999000+00:00",
+    "maobv30": -1172443.4668289998,
+    "mdi": 23.353727896992417,
+    "obv": -1160495.8261340002,
+    "obv_direction": "DOWN",
+    "obv_relation": "ABOVE",
+    "pdi": 17.3346180020934
+  },
+  "4h": {
+    "adx": 11.89501614498721,
+    "atr14": 557.9868264548846,
+    "atr_pct": 0.8708299665204552,
+    "candle_count": 499,
+    "close": 64075.29,
+    "ema200": 64088.21694333822,
+    "ema50": 63804.03028182942,
+    "ema_spread_pct": -0.44343043864062404,
+    "evidence": {
+      "dmi_sign": 0,
+      "ema_sign": 0,
+      "obv_sign": 1,
+      "score": 1,
+      "timeframe_direction": "SIDEWAYS"
+    },
+    "last_complete_candle_end": "2026-08-05T11:59:59.999000+00:00",
+    "maobv30": -158417.06248626646,
+    "mdi": 16.39672666203584,
+    "obv": -142633.80414099986,
+    "obv_direction": "UP",
+    "obv_relation": "ABOVE",
+    "pdi": 21.511230587649916
+  },
+  "classification": {
+    "character": "CONSOLIDATION",
+    "confirmation_count": 1,
+    "confirmations": {
+      "dmi_adx": false,
+      "ema": false,
+      "obv": false,
+      "timeframe_alignment": true
+    },
+    "direction": "SIDEWAYS",
+    "method_id": "BTCRADAR_OHLCV_V0_1",
+    "method_version": "0.1.0",
+    "raw_direction_score": 0,
+    "signal_strength": "WEAK",
+    "timeframe_direction_1d": "SIDEWAYS",
+    "timeframe_direction_4h": "SIDEWAYS",
+    "timeframe_divergence": false
+  },
+  "instrument": "BTC_USDT",
+  "market": "SPOT",
+  "method_id": "BTCRADAR_OHLCV_V0_1",
+  "method_version": "0.1.0",
+  "run_id": "run-btc-radar-20260805T1454CEST",
+  "source": "PIONEX",
+  "ticker_price": 64343.69
+}
