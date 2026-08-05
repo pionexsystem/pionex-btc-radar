@@ -1,11 +1,107 @@
 {
   "baseline": {
     "baseline_path": "data/baselines/pionex_btc_usdt_btcradar_ohlcv_v0_2.json",
-    "baseline_run_id": null,
-    "baseline_updated": true,
+    "baseline_run_id": "run-btc-radar-20260805T155633CEST",
+    "baseline_updated": false,
+    "changes": {
+      "1d": {
+        "evidence_score_current": -1,
+        "evidence_score_previous": -1,
+        "last_complete_candle_end_current": "2026-08-04T23:59:59.999000+00:00",
+        "last_complete_candle_end_previous": "2026-08-04T23:59:59.999000+00:00",
+        "new_complete_candle": false,
+        "numeric_deltas": {
+          "adx": 0.0,
+          "atr14": 0.0,
+          "atr_pct": 0.0,
+          "close": 0.0,
+          "ema200": 0.0,
+          "ema50": 0.0,
+          "ema_spread_pct": 0.0,
+          "mdi": 0.0,
+          "pdi": 0.0
+        },
+        "obv_direction_current": "DOWN",
+        "obv_direction_previous": "DOWN",
+        "obv_relation_current": "ABOVE",
+        "obv_relation_previous": "ABOVE"
+      },
+      "4h": {
+        "evidence_score_current": 1,
+        "evidence_score_previous": 1,
+        "last_complete_candle_end_current": "2026-08-05T11:59:59.999000+00:00",
+        "last_complete_candle_end_previous": "2026-08-05T11:59:59.999000+00:00",
+        "new_complete_candle": false,
+        "numeric_deltas": {
+          "adx": 0.0,
+          "atr14": 0.0,
+          "atr_pct": 0.0,
+          "close": 0.0,
+          "ema200": 0.0,
+          "ema50": 0.0,
+          "ema_spread_pct": 0.0,
+          "mdi": 0.0,
+          "pdi": 0.0
+        },
+        "obv_direction_current": "UP",
+        "obv_direction_previous": "UP",
+        "obv_relation_current": "ABOVE",
+        "obv_relation_previous": "ABOVE"
+      },
+      "classification_current": {
+        "character": "CONSOLIDATION",
+        "confirmation_count": 0,
+        "confirmations": {
+          "dmi_adx": false,
+          "ema": false,
+          "obv": false,
+          "timeframe_alignment": false
+        },
+        "direction": "SIDEWAYS",
+        "method_id": "BTCRADAR_OHLCV_V0_2",
+        "method_version": "0.2.0",
+        "raw_direction_score": 0,
+        "raw_direction_score_1d": -1,
+        "raw_direction_score_4h": 1,
+        "signal_strength": "WEAK",
+        "timeframe_alignment": false,
+        "timeframe_bias_1d": "BEAR",
+        "timeframe_bias_4h": "BULL",
+        "timeframe_direction_1d": "SIDEWAYS",
+        "timeframe_direction_4h": "SIDEWAYS",
+        "timeframe_divergence": false,
+        "timeframe_tension": true
+      },
+      "classification_previous": {
+        "character": "CONSOLIDATION",
+        "confirmation_count": 0,
+        "confirmations": {
+          "dmi_adx": false,
+          "ema": false,
+          "obv": false,
+          "timeframe_alignment": false
+        },
+        "direction": "SIDEWAYS",
+        "method_id": "BTCRADAR_OHLCV_V0_2",
+        "method_version": "0.2.0",
+        "raw_direction_score": 0,
+        "raw_direction_score_1d": -1,
+        "raw_direction_score_4h": 1,
+        "signal_strength": "WEAK",
+        "timeframe_alignment": false,
+        "timeframe_bias_1d": "BEAR",
+        "timeframe_bias_4h": "BULL",
+        "timeframe_direction_1d": "SIDEWAYS",
+        "timeframe_direction_4h": "SIDEWAYS",
+        "timeframe_divergence": false,
+        "timeframe_tension": true
+      },
+      "ticker_price_delta_pct": 0.12384098289159873
+    },
     "current_baseline_run_id": "run-btc-radar-20260805T155633CEST",
-    "status": "NO_COMPARABLE_BASELINE",
-    "update_reason": "NEW_METHOD_OR_SOURCE_BASELINE"
+    "data_cut_changed": false,
+    "status": "COMPARABLE",
+    "update_reason": "NO_NEW_COMPLETE_CANDLE"
   },
   "classification": {
     "character": "CONSOLIDATION",
@@ -34,23 +130,23 @@
   "controls": {
     "coinbase": {
       "comparison": "PASS",
-      "difference_from_main_pct": -0.09052130601316932,
-      "obtained_at": "2026-08-05T13:56:33.788691+00:00",
-      "price": 64258.13,
-      "source_time": "2026-08-05T13:56:32.402315285Z",
+      "difference_from_main_pct": -0.09168271321200461,
+      "obtained_at": "2026-08-05T13:59:12.756448+00:00",
+      "price": 64336.96,
+      "source_time": "2026-08-05T13:59:11.865481819Z",
       "status": "A"
     },
     "coingecko": {
       "comparison": "PASS",
-      "difference_from_main_pct": -0.07206565671092902,
-      "obtained_at": "2026-08-05T13:56:33.865026+00:00",
-      "price": 64270.0,
-      "source_time": "2026-08-05T13:54:20+00:00",
+      "difference_from_main_pct": -0.18945276104105346,
+      "obtained_at": "2026-08-05T13:59:12.806417+00:00",
+      "price": 64274.0,
+      "source_time": "2026-08-05T13:57:10+00:00",
       "status": "A"
     }
   },
   "errors": [],
-  "generated_at": "2026-08-05T15:56:33.013847+02:00",
+  "generated_at": "2026-08-05T15:59:11.888337+02:00",
   "indicators": {
     "1d": {
       "adx": 19.59599495166972,
@@ -122,10 +218,10 @@
   },
   "quality_gate": "WARN",
   "raw_pack": {
-    "path": "data/raw/run-btc-radar-20260805T155633CEST.json",
-    "sha256": "a4474eb888df9788eee139063775459a45b564c21ca61e6f124451858cea56ad"
+    "path": "data/raw/run-btc-radar-20260805T155911CEST.json",
+    "sha256": "ba5f878246ca73bb7f2ba150583b32ab67751bca2ec559b1c1ee163251dd1353"
   },
-  "run_id": "run-btc-radar-20260805T155633CEST",
+  "run_id": "run-btc-radar-20260805T155911CEST",
   "safety": {
     "execution_allowed": false,
     "human_gate_required": true,
@@ -143,15 +239,15 @@
   },
   "status": "COMPLETE",
   "ticker": {
-    "base_volume_24h": 29356.482337,
-    "change_24h_pct": 0.8630775021171155,
+    "base_volume_24h": 29274.180548,
+    "change_24h_pct": 1.0640793910793533,
     "high_24h": 64581.34,
     "low_24h": 63615.38,
-    "open_24h": 63766.0,
-    "price": 64316.35,
-    "quote_volume_24h": 1883814857.612811,
-    "source_time_ms": 1785938193172,
-    "trade_count_24h": 257194
+    "open_24h": 63717.99,
+    "price": 64396.0,
+    "quote_volume_24h": 1878647342.5077558,
+    "source_time_ms": 1785938351321,
+    "trade_count_24h": 254132
   },
   "timezone": "Europe/Prague"
 }
