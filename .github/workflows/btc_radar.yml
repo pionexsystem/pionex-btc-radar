@@ -3,9 +3,7 @@ name: Daily BTC data collector
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7,22,37,52 * * * *"
-      timezone: "Europe/Prague"
-
+  - cron: "*/5 * * * *"
 permissions:
   contents: write
 
