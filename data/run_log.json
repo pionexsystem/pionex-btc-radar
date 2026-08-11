@@ -126,5 +126,17 @@
     "source": "PIONEX",
     "status": "COMPLETE",
     "timeframe_tension": false
+  },
+  {
+    "character": "CONSOLIDATION",
+    "direction": "BEAR",
+    "generated_at": "2026-08-11T07:31:06.021476+02:00",
+    "information_risk": "MEDIUM",
+    "quality_gate": "WARN",
+    "run_id": "run-btc-radar-20260811T073106CEST",
+    "signal_strength": "WEAK",
+    "source": "PIONEX",
+    "status": "COMPLETE",
+    "timeframe_tension": false
   }
 ]
