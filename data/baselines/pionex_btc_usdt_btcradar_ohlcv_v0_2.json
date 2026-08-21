@@ -1,37 +1,37 @@
 {
   "1d": {
-    "adx": 19.70383496483581,
-    "atr14": 1573.307427981778,
-    "atr_pct": 2.2691457318638713,
+    "adx": 25.98115687154321,
+    "atr14": 1782.1976116973656,
+    "atr_pct": 2.440463285640528,
     "candle_count": 499,
-    "close": 69334.79,
-    "ema200": 71479.55760939165,
-    "ema50": 64570.19894659812,
-    "ema_spread_pct": -9.666202329553464,
+    "close": 73027.02,
+    "ema200": 71537.78014976972,
+    "ema50": 64901.83900137187,
+    "ema_spread_pct": -9.276135119799655,
     "evidence": {
-      "dmi_sign": 0,
+      "dmi_sign": 1,
       "ema_sign": 0,
       "obv_sign": 1,
-      "score": 1,
-      "timeframe_direction": "SIDEWAYS"
+      "score": 2,
+      "timeframe_direction": "BULL"
     },
-    "last_complete_candle_end": "2026-08-19T23:59:59.999000+00:00",
-    "maobv30": -1161644.2205455333,
-    "mdi": 14.5507803202368,
-    "obv": -1107639.1594639998,
+    "last_complete_candle_end": "2026-08-20T23:59:59.999000+00:00",
+    "maobv30": -1191210.1133249328,
+    "mdi": 11.927772204085322,
+    "obv": -1072598.6090479991,
     "obv_direction": "UP",
     "obv_relation": "ABOVE",
-    "pdi": 37.08765935747141
+    "pdi": 44.02881837674067
   },
   "4h": {
-    "adx": 49.56759335225988,
-    "atr14": 823.0488775012548,
-    "atr_pct": 1.1894521048529434,
+    "adx": 73.66441267275138,
+    "atr14": 1114.2381575601676,
+    "atr_pct": 1.4954057072564655,
     "candle_count": 499,
-    "close": 69195.63,
-    "ema200": 64194.744619068326,
-    "ema50": 64629.58000724217,
-    "ema_spread_pct": 0.6773691378541224,
+    "close": 74510.76,
+    "ema200": 64675.35970794559,
+    "ema50": 66306.99991237075,
+    "ema_spread_pct": 2.522815817017743,
     "evidence": {
       "dmi_sign": 1,
       "ema_sign": 1,
@@ -39,19 +39,19 @@
       "score": 3,
       "timeframe_direction": "BULL"
     },
-    "last_complete_candle_end": "2026-08-20T03:59:59.999000+00:00",
-    "maobv30": -109608.35839643324,
-    "mdi": 6.515431982927697,
-    "obv": -87235.21329299988,
+    "last_complete_candle_end": "2026-08-21T03:59:59.999000+00:00",
+    "maobv30": -94699.70717229988,
+    "mdi": 3.085195683876349,
+    "obv": -20832.65560899986,
     "obv_direction": "UP",
     "obv_relation": "ABOVE",
-    "pdi": 51.625747975988844
+    "pdi": 57.11564346297712
   },
   "classification": {
-    "character": "CONSOLIDATION",
-    "confirmation_count": 2,
+    "character": "TREND",
+    "confirmation_count": 3,
     "confirmations": {
-      "dmi_adx": false,
+      "dmi_adx": true,
       "ema": false,
       "obv": true,
       "timeframe_alignment": true
@@ -59,14 +59,14 @@
     "direction": "BULL",
     "method_id": "BTCRADAR_OHLCV_V0_2",
     "method_version": "0.2.0",
-    "raw_direction_score": 4,
-    "raw_direction_score_1d": 1,
+    "raw_direction_score": 5,
+    "raw_direction_score_1d": 2,
     "raw_direction_score_4h": 3,
-    "signal_strength": "MEDIUM",
+    "signal_strength": "STRONG",
     "timeframe_alignment": true,
     "timeframe_bias_1d": "BULL",
     "timeframe_bias_4h": "BULL",
-    "timeframe_direction_1d": "SIDEWAYS",
+    "timeframe_direction_1d": "BULL",
     "timeframe_direction_4h": "BULL",
     "timeframe_divergence": false,
     "timeframe_tension": false
@@ -75,7 +75,7 @@
   "market": "SPOT",
   "method_id": "BTCRADAR_OHLCV_V0_2",
   "method_version": "0.2.0",
-  "run_id": "run-btc-radar-20260820T073059CEST",
+  "run_id": "run-btc-radar-20260821T073053CEST",
   "source": "PIONEX",
-  "ticker_price": 69604.57
+  "ticker_price": 75155.37
 }
