@@ -330,5 +330,17 @@
     "source": "PIONEX",
     "status": "COMPLETE",
     "timeframe_tension": false
+  },
+  {
+    "character": "TREND",
+    "direction": "BULL",
+    "generated_at": "2026-08-28T07:30:54.562866+02:00",
+    "information_risk": "MEDIUM",
+    "quality_gate": "WARN",
+    "run_id": "run-btc-radar-20260828T073054CEST",
+    "signal_strength": "STRONG",
+    "source": "PIONEX",
+    "status": "COMPLETE",
+    "timeframe_tension": false
   }
 ]
