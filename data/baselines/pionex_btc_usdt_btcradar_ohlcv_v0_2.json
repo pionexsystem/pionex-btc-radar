@@ -1,13 +1,13 @@
 {
   "1d": {
-    "adx": 45.217881150902976,
-    "atr14": 2136.177671318638,
-    "atr_pct": 2.496994938066161,
+    "adx": 42.10224878967403,
+    "atr14": 2184.376409081593,
+    "atr_pct": 2.6216142077105538,
     "candle_count": 499,
-    "close": 85549.94,
-    "ema200": 75219.55290459786,
-    "ema50": 79419.65188521885,
-    "ema_spread_pct": 5.583786154576109,
+    "close": 83321.81,
+    "ema200": 75296.79275768134,
+    "ema50": 79572.67769257913,
+    "ema_spread_pct": 5.678707921409565,
     "evidence": {
       "dmi_sign": 1,
       "ema_sign": 1,
@@ -15,37 +15,37 @@
       "score": 1,
       "timeframe_direction": "SIDEWAYS"
     },
-    "last_complete_candle_end": "2026-10-06T23:59:59.999000+00:00",
-    "maobv30": -1079146.502250099,
-    "mdi": 10.243805192930203,
-    "obv": -1130290.9802699992,
+    "last_complete_candle_end": "2026-10-07T23:59:59.999000+00:00",
+    "maobv30": -1081602.9446229658,
+    "mdi": 16.98289991311988,
+    "obv": -1178795.4914139993,
     "obv_direction": "DOWN",
     "obv_relation": "BELOW",
-    "pdi": 32.20437392325955
+    "pdi": 29.244221917439454
   },
   "4h": {
-    "adx": 18.05323428142114,
-    "atr14": 804.8850874234149,
-    "atr_pct": 0.9564839708705068,
+    "adx": 30.008544397805355,
+    "atr14": 760.3204284900327,
+    "atr_pct": 0.9187385097212715,
     "candle_count": 499,
-    "close": 84150.4,
-    "ema200": 81533.3383589943,
-    "ema50": 84919.85650671949,
-    "ema_spread_pct": 4.153537946421659,
+    "close": 82757.0,
+    "ema200": 81639.01822827276,
+    "ema50": 84605.79473109562,
+    "ema_spread_pct": 3.634017859606531,
     "evidence": {
-      "dmi_sign": 0,
+      "dmi_sign": -1,
       "ema_sign": 0,
       "obv_sign": -1,
-      "score": -1,
-      "timeframe_direction": "SIDEWAYS"
+      "score": -2,
+      "timeframe_direction": "BEAR"
     },
-    "last_complete_candle_end": "2026-10-07T03:59:59.999000+00:00",
-    "maobv30": 239404.02946666663,
-    "mdi": 31.920596076176672,
-    "obv": 223609.584694,
+    "last_complete_candle_end": "2026-10-08T03:59:59.999000+00:00",
+    "maobv30": 222972.01403143335,
+    "mdi": 35.20683086653223,
+    "obv": 169592.77447300003,
     "obv_direction": "DOWN",
     "obv_relation": "BELOW",
-    "pdi": 20.78346926740716
+    "pdi": 14.104158018980717
   },
   "classification": {
     "character": "CONSOLIDATION",
@@ -59,15 +59,15 @@
     "direction": "SIDEWAYS",
     "method_id": "BTCRADAR_OHLCV_V0_2",
     "method_version": "0.2.0",
-    "raw_direction_score": 0,
+    "raw_direction_score": -1,
     "raw_direction_score_1d": 1,
-    "raw_direction_score_4h": -1,
+    "raw_direction_score_4h": -2,
     "signal_strength": "WEAK",
     "timeframe_alignment": false,
     "timeframe_bias_1d": "BULL",
     "timeframe_bias_4h": "BEAR",
     "timeframe_direction_1d": "SIDEWAYS",
-    "timeframe_direction_4h": "SIDEWAYS",
+    "timeframe_direction_4h": "BEAR",
     "timeframe_divergence": false,
     "timeframe_tension": true
   },
@@ -75,7 +75,7 @@
   "market": "SPOT",
   "method_id": "BTCRADAR_OHLCV_V0_2",
   "method_version": "0.2.0",
-  "run_id": "run-btc-radar-20261007T073100CEST",
+  "run_id": "run-btc-radar-20261008T073112CEST",
   "source": "PIONEX",
-  "ticker_price": 84197.75
+  "ticker_price": 82911.71
 }
