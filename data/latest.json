@@ -1,27 +1,27 @@
 {
   "baseline": {
     "baseline_path": "data/baselines/pionex_btc_usdt_btcradar_ohlcv_v0_2.json",
-    "baseline_run_id": "run-btc-radar-20261012T073108CEST",
+    "baseline_run_id": "run-btc-radar-20261013T073109CEST",
     "baseline_updated": true,
     "changes": {
       "1d": {
         "evidence_score_current": 1,
         "evidence_score_previous": 1,
-        "last_complete_candle_end_current": "2026-10-12T23:59:59.999000+00:00",
-        "last_complete_candle_end_previous": "2026-10-11T23:59:59.999000+00:00",
+        "last_complete_candle_end_current": "2026-10-13T23:59:59.999000+00:00",
+        "last_complete_candle_end_previous": "2026-10-12T23:59:59.999000+00:00",
         "new_complete_candle": true,
         "numeric_deltas": {
-          "adx": -3.3122007856594315,
-          "atr14": 38.26240751662408,
-          "atr_pct": 0.10457370515197217,
-          "close": -1922.2799999999988,
-          "ema200": 69.72109617000388,
-          "ema50": 70.47785670444136,
-          "ema_spread_pct": -0.00447833150445387,
-          "mdi": 1.8177738818857243,
-          "pdi": -2.349856920818784
+          "adx": -3.5701080977136,
+          "atr14": 73.76723555114995,
+          "atr_pct": 0.04798775381507836,
+          "close": 1319.0,
+          "ema200": 76.40799005008012,
+          "ema50": 119.43950757697166,
+          "ema_spread_pct": 0.050844966673202485,
+          "mdi": 0.10458831589320638,
+          "pdi": -2.4959982051269947
         },
-        "obv_direction_current": "DOWN",
+        "obv_direction_current": "UP",
         "obv_direction_previous": "DOWN",
         "obv_relation_current": "BELOW",
         "obv_relation_previous": "BELOW"
@@ -29,24 +29,24 @@
       "4h": {
         "evidence_score_current": 0,
         "evidence_score_previous": 0,
-        "last_complete_candle_end_current": "2026-10-13T03:59:59.999000+00:00",
-        "last_complete_candle_end_previous": "2026-10-12T03:59:59.999000+00:00",
+        "last_complete_candle_end_current": "2026-10-14T03:59:59.999000+00:00",
+        "last_complete_candle_end_previous": "2026-10-13T03:59:59.999000+00:00",
         "new_complete_candle": true,
         "numeric_deltas": {
-          "adx": 3.675797164659448,
-          "atr14": 245.00048712642604,
-          "atr_pct": 0.2963328025039461,
-          "close": -281.8899999999994,
-          "ema200": 68.7294563618052,
-          "ema50": -124.77469528415531,
-          "ema_spread_pct": -0.23775600255711016,
-          "mdi": 8.344505590462088,
-          "pdi": -12.345238902056684
+          "adx": 2.2463009044123403,
+          "atr14": -34.76228936202358,
+          "atr_pct": -0.04586605719485415,
+          "close": 368.8399999999965,
+          "ema200": 83.2270125715877,
+          "ema50": 1.2482332903600764,
+          "ema_spread_pct": -0.10173210610397998,
+          "mdi": -7.084003184622109,
+          "pdi": 2.135342670919341
         },
         "obv_direction_current": "DOWN",
         "obv_direction_previous": "DOWN",
         "obv_relation_current": "ABOVE",
-        "obv_relation_previous": "BELOW"
+        "obv_relation_previous": "ABOVE"
       },
       "classification_current": {
         "character": "CONSOLIDATION",
@@ -96,9 +96,9 @@
         "timeframe_divergence": false,
         "timeframe_tension": false
       },
-      "ticker_price_delta_pct": -0.2513587304697529
+      "ticker_price_delta_pct": -0.07587605174961265
     },
-    "current_baseline_run_id": "run-btc-radar-20261013T073109CEST",
+    "current_baseline_run_id": "run-btc-radar-20261014T073108CEST",
     "data_cut_changed": true,
     "status": "COMPARABLE",
     "update_reason": "NEW_COMPLETE_CANDLE"
@@ -130,71 +130,71 @@
   "controls": {
     "coinbase": {
       "comparison": "PASS",
-      "difference_from_main_pct": -0.10847288154063328,
-      "obtained_at": "2026-10-13T05:31:10.069293+00:00",
-      "price": 83598.34,
-      "source_time": "2026-10-13T05:31:09.088502483Z",
+      "difference_from_main_pct": -0.09550900788537486,
+      "obtained_at": "2026-10-14T05:31:08.856367+00:00",
+      "price": 83545.75,
+      "source_time": "2026-10-14T05:31:08.049243625Z",
       "status": "A"
     },
     "coingecko": {
       "comparison": "PASS",
-      "difference_from_main_pct": 0.0034413075439276852,
-      "obtained_at": "2026-10-13T05:31:10.253355+00:00",
-      "price": 83692.0,
-      "source_time": "2026-10-13T05:30:32+00:00",
+      "difference_from_main_pct": -0.15858776293675714,
+      "obtained_at": "2026-10-14T05:31:09.001945+00:00",
+      "price": 83493.0,
+      "source_time": "2026-10-14T05:30:40+00:00",
       "status": "A"
     }
   },
   "errors": [],
-  "generated_at": "2026-10-13T07:31:09.356378+02:00",
+  "generated_at": "2026-10-14T07:31:08.204013+02:00",
   "indicators": {
     "1d": {
-      "adx": 21.823335336402533,
-      "atr14": 2100.9387022838914,
-      "atr_pct": 2.5668154497279736,
+      "adx": 18.253227238688932,
+      "atr14": 2174.7059378350414,
+      "atr_pct": 2.614803203543052,
       "candle_count": 499,
-      "close": 81850.01,
-      "ema200": 75631.61011146424,
-      "ema50": 80123.30256808414,
-      "ema_spread_pct": 5.938908942967291,
+      "close": 83169.01,
+      "ema200": 75708.01810151432,
+      "ema50": 80242.74207566111,
+      "ema_spread_pct": 5.989753909640494,
       "evidence": {
-        "dmi_sign": 1,
+        "dmi_sign": 0,
         "ema_sign": 1,
-        "obv_sign": -1,
+        "obv_sign": 0,
         "score": 1,
         "timeframe_direction": "SIDEWAYS"
       },
-      "last_complete_candle_end": "2026-10-12T23:59:59.999000+00:00",
-      "maobv30": -1090830.2030713991,
-      "mdi": 21.82568620841433,
-      "obv": -1196226.5117629992,
-      "obv_direction": "DOWN",
+      "last_complete_candle_end": "2026-10-13T23:59:59.999000+00:00",
+      "maobv30": -1092682.9386165326,
+      "mdi": 21.930274524307535,
+      "obv": -1165963.9270139995,
+      "obv_direction": "UP",
       "obv_relation": "BELOW",
-      "pdi": 24.250360485184896
+      "pdi": 21.7543622800579
     },
     "4h": {
-      "adx": 18.577098786513062,
-      "atr14": 819.5764477928303,
-      "atr_pct": 0.9835172694597115,
+      "adx": 20.823399690925402,
+      "atr14": 784.8141584308067,
+      "atr_pct": 0.9376512122648574,
       "candle_count": 499,
-      "close": 83331.17,
-      "ema200": 81979.1851316353,
-      "ema50": 83461.66087849987,
-      "ema_spread_pct": 1.8083562851767043,
+      "close": 83700.01,
+      "ema200": 82062.41214420689,
+      "ema50": 83462.90911179023,
+      "ema_spread_pct": 1.7066241790727243,
       "evidence": {
-        "dmi_sign": 0,
-        "ema_sign": 0,
+        "dmi_sign": -1,
+        "ema_sign": 1,
         "obv_sign": 0,
         "score": 0,
         "timeframe_direction": "SIDEWAYS"
       },
-      "last_complete_candle_end": "2026-10-13T03:59:59.999000+00:00",
-      "maobv30": 115660.93082840004,
-      "mdi": 27.7418949188721,
-      "obv": 116024.66588800006,
+      "last_complete_candle_end": "2026-10-14T03:59:59.999000+00:00",
+      "maobv30": 111187.12922303351,
+      "mdi": 20.65789173424999,
+      "obv": 112249.36890800016,
       "obv_direction": "DOWN",
       "obv_relation": "ABOVE",
-      "pdi": 13.59349608674468
+      "pdi": 15.728838757664022
     }
   },
   "information_risk": "MEDIUM",
@@ -218,10 +218,10 @@
   },
   "quality_gate": "WARN",
   "raw_pack": {
-    "path": "data/raw/run-btc-radar-20261013T073109CEST.json",
-    "sha256": "e18ced22273c73d9ab38fd57ff6161df938b91d488dd2f05fd18989f50ce206c"
+    "path": "data/raw/run-btc-radar-20261014T073108CEST.json",
+    "sha256": "0bfe2611df0860b68f9e4d949b78fe921f19a2a79f9f127ceb5c7a3160d53935"
   },
-  "run_id": "run-btc-radar-20261013T073109CEST",
+  "run_id": "run-btc-radar-20261014T073108CEST",
   "safety": {
     "execution_allowed": false,
     "human_gate_required": true,
@@ -239,15 +239,15 @@
   },
   "status": "COMPLETE",
   "ticker": {
-    "base_volume_24h": 28238.265278,
-    "change_24h_pct": -0.2775076526408293,
-    "high_24h": 84348.46,
-    "low_24h": 81034.32,
-    "open_24h": 83922.01,
-    "price": 83689.12,
-    "quote_volume_24h": 2341700179.422546,
-    "source_time_ms": 1791869469194,
-    "trade_count_24h": 509731
+    "base_volume_24h": 28152.447244,
+    "change_24h_pct": -0.056911863338870994,
+    "high_24h": 84168.0,
+    "low_24h": 82972.78,
+    "open_24h": 83673.24,
+    "price": 83625.62,
+    "quote_volume_24h": 2351109829.277536,
+    "source_time_ms": 1791955868298,
+    "trade_count_24h": 320996
   },
   "timezone": "Europe/Prague"
 }
