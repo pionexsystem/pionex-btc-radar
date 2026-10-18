@@ -1,54 +1,78 @@
 {
   "baseline": {
     "baseline_path": "data/baselines/pionex_btc_usdt_btcradar_ohlcv_v0_2.json",
-    "baseline_run_id": "run-btc-radar-20261016T073108CEST",
+    "baseline_run_id": "run-btc-radar-20261017T073101CEST",
     "baseline_updated": true,
     "changes": {
       "1d": {
         "evidence_score_current": 0,
-        "evidence_score_previous": 1,
-        "last_complete_candle_end_current": "2026-10-16T23:59:59.999000+00:00",
-        "last_complete_candle_end_previous": "2026-10-15T23:59:59.999000+00:00",
+        "evidence_score_previous": 0,
+        "last_complete_candle_end_current": "2026-10-17T23:59:59.999000+00:00",
+        "last_complete_candle_end_previous": "2026-10-16T23:59:59.999000+00:00",
         "new_complete_candle": true,
         "numeric_deltas": {
-          "adx": -0.7931267854075976,
-          "atr14": -8.953660165495876,
-          "atr_pct": 0.010211530130948443,
-          "close": -630.0299999999988,
-          "ema200": 35.93299129095976,
-          "ema50": 48.64207416793215,
-          "ema_spread_pct": 0.013910048648613227,
-          "mdi": -1.5866414354318614,
-          "pdi": -0.25053993333832025
+          "adx": -0.6609389878396712,
+          "atr14": -92.67911301081858,
+          "atr_pct": -0.10950925453794991,
+          "close": -124.86000000000058,
+          "ema200": 74.94710139476229,
+          "ema50": 41.838084028160665,
+          "ema_spread_pct": -0.04954003341202107,
+          "mdi": -0.6878797068306426,
+          "pdi": -0.5614262706455087
+        },
+        "obv_direction_current": "DOWN",
+        "obv_direction_previous": "DOWN",
+        "obv_relation_current": "BELOW",
+        "obv_relation_previous": "BELOW"
+      },
+      "4h": {
+        "evidence_score_current": -2,
+        "evidence_score_previous": -1,
+        "last_complete_candle_end_current": "2026-10-18T03:59:59.999000+00:00",
+        "last_complete_candle_end_previous": "2026-10-17T03:59:59.999000+00:00",
+        "new_complete_candle": true,
+        "numeric_deltas": {
+          "adx": 0.09379751651299983,
+          "atr14": -145.2031424000819,
+          "atr_pct": -0.18220295002012055,
+          "close": 376.0399999999936,
+          "ema200": -19.68600411474472,
+          "ema50": -226.82879774094908,
+          "ema_spread_pct": -0.25235277004240775,
+          "mdi": -0.18724807046319114,
+          "pdi": 2.622748458520026
         },
         "obv_direction_current": "DOWN",
         "obv_direction_previous": "UP",
         "obv_relation_current": "BELOW",
         "obv_relation_previous": "BELOW"
       },
-      "4h": {
-        "evidence_score_current": -1,
-        "evidence_score_previous": -2,
-        "last_complete_candle_end_current": "2026-10-17T03:59:59.999000+00:00",
-        "last_complete_candle_end_previous": "2026-10-16T03:59:59.999000+00:00",
-        "new_complete_candle": true,
-        "numeric_deltas": {
-          "adx": 2.2939786297267304,
-          "atr14": -97.68842869989851,
-          "atr_pct": -0.11169990521473161,
-          "close": -542.0399999999936,
-          "ema200": -9.161593105382053,
-          "ema50": -233.93517884463654,
-          "ema_spread_pct": -0.27385202877805437,
-          "mdi": -0.10817165891614522,
-          "pdi": 1.5826800421170661
-        },
-        "obv_direction_current": "UP",
-        "obv_direction_previous": "DOWN",
-        "obv_relation_current": "BELOW",
-        "obv_relation_previous": "BELOW"
-      },
       "classification_current": {
+        "character": "CONSOLIDATION",
+        "confirmation_count": 1,
+        "confirmations": {
+          "dmi_adx": false,
+          "ema": false,
+          "obv": true,
+          "timeframe_alignment": false
+        },
+        "direction": "BEAR",
+        "method_id": "BTCRADAR_OHLCV_V0_2",
+        "method_version": "0.2.0",
+        "raw_direction_score": -2,
+        "raw_direction_score_1d": 0,
+        "raw_direction_score_4h": -2,
+        "signal_strength": "WEAK",
+        "timeframe_alignment": false,
+        "timeframe_bias_1d": "NEUTRAL",
+        "timeframe_bias_4h": "BEAR",
+        "timeframe_direction_1d": "SIDEWAYS",
+        "timeframe_direction_4h": "BEAR",
+        "timeframe_divergence": false,
+        "timeframe_tension": false
+      },
+      "classification_previous": {
         "character": "CONSOLIDATION",
         "confirmation_count": 0,
         "confirmations": {
@@ -72,91 +96,67 @@
         "timeframe_divergence": false,
         "timeframe_tension": false
       },
-      "classification_previous": {
-        "character": "CONSOLIDATION",
-        "confirmation_count": 0,
-        "confirmations": {
-          "dmi_adx": false,
-          "ema": false,
-          "obv": false,
-          "timeframe_alignment": false
-        },
-        "direction": "SIDEWAYS",
-        "method_id": "BTCRADAR_OHLCV_V0_2",
-        "method_version": "0.2.0",
-        "raw_direction_score": -1,
-        "raw_direction_score_1d": 1,
-        "raw_direction_score_4h": -2,
-        "signal_strength": "WEAK",
-        "timeframe_alignment": false,
-        "timeframe_bias_1d": "BULL",
-        "timeframe_bias_4h": "BEAR",
-        "timeframe_direction_1d": "SIDEWAYS",
-        "timeframe_direction_4h": "BEAR",
-        "timeframe_divergence": false,
-        "timeframe_tension": true
-      },
-      "ticker_price_delta_pct": -0.7253901642407468
+      "ticker_price_delta_pct": 0.19257398443721652
     },
-    "current_baseline_run_id": "run-btc-radar-20261017T073101CEST",
+    "current_baseline_run_id": "run-btc-radar-20261018T073103CEST",
     "data_cut_changed": true,
     "status": "COMPARABLE",
     "update_reason": "NEW_COMPLETE_CANDLE"
   },
   "classification": {
     "character": "CONSOLIDATION",
-    "confirmation_count": 0,
+    "confirmation_count": 1,
     "confirmations": {
       "dmi_adx": false,
       "ema": false,
-      "obv": false,
+      "obv": true,
       "timeframe_alignment": false
     },
-    "direction": "SIDEWAYS",
+    "direction": "BEAR",
     "method_id": "BTCRADAR_OHLCV_V0_2",
     "method_version": "0.2.0",
-    "raw_direction_score": -1,
+    "raw_direction_score": -2,
     "raw_direction_score_1d": 0,
-    "raw_direction_score_4h": -1,
+    "raw_direction_score_4h": -2,
     "signal_strength": "WEAK",
     "timeframe_alignment": false,
     "timeframe_bias_1d": "NEUTRAL",
     "timeframe_bias_4h": "BEAR",
     "timeframe_direction_1d": "SIDEWAYS",
-    "timeframe_direction_4h": "SIDEWAYS",
+    "timeframe_direction_4h": "BEAR",
     "timeframe_divergence": false,
     "timeframe_tension": false
   },
   "controls": {
     "coinbase": {
       "comparison": "PASS",
-      "difference_from_main_pct": -0.14780957049199683,
-      "obtained_at": "2026-10-17T05:31:01.905782+00:00",
-      "price": 81484.38,
-      "source_time": "2026-10-17T05:31:00.982802651Z",
+      "difference_from_main_pct": -0.1256449347283528,
+      "obtained_at": "2026-10-18T05:31:03.864191+00:00",
+      "price": 81659.42,
+      "source_time": "2026-10-18T05:31:01.592896298Z",
       "status": "A"
     },
     "coingecko": {
       "comparison": "PASS",
-      "difference_from_main_pct": -0.10906194473377928,
-      "obtained_at": "2026-10-17T05:31:01.953154+00:00",
-      "price": 81516.0,
-      "source_time": "2026-10-17T05:30:01+00:00",
+      "difference_from_main_pct": -0.10292048337768867,
+      "obtained_at": "2026-10-18T05:31:03.991398+00:00",
+      "price": 81678.0,
+      "source_time": "2026-10-18T05:30:13+00:00",
       "status": "A"
     }
   },
   "errors": [],
-  "generated_at": "2026-10-17T07:31:01.050857+02:00",
+  "generated_at": "2026-10-18T07:31:03.109978+02:00",
   "indicators": {
     "1d": {
-      "adx": 14.087528680202928,
-      "atr14": 2247.8575821514523,
-      "atr_pct": 2.7541907669356736,
+      "adx": 13.426589692363256,
+      "atr14": 2155.1784691406338,
+      "atr_pct": 2.6446815123977236,
       "candle_count": 499,
-      "close": 81615.9,
-      "ema200": 75860.04085956627,
-      "ema50": 80424.16900894241,
-      "ema_spread_pct": 6.016511588525697,
+      "close": 81491.04,
+      "ema200": 75934.98796096104,
+      "ema50": 80466.00709297057,
+      "ema_spread_pct": 5.966971555113676,
       "evidence": {
         "dmi_sign": 0,
         "ema_sign": 1,
@@ -164,37 +164,37 @@
         "score": 0,
         "timeframe_direction": "SIDEWAYS"
       },
-      "last_complete_candle_end": "2026-10-16T23:59:59.999000+00:00",
-      "maobv30": -1097709.9389803994,
-      "mdi": 21.83937440867315,
-      "obv": -1186218.0431189993,
+      "last_complete_candle_end": "2026-10-17T23:59:59.999000+00:00",
+      "maobv30": -1102275.1853619325,
+      "mdi": 21.15149470184251,
+      "obv": -1198597.1777229994,
       "obv_direction": "DOWN",
       "obv_relation": "BELOW",
-      "pdi": 17.824626029433166
+      "pdi": 17.263199758787657
     },
     "4h": {
-      "adx": 57.11327869533694,
-      "atr14": 896.1162212959478,
-      "atr_pct": 1.0983974196106756,
+      "adx": 57.20707621184994,
+      "atr14": 750.9130788958659,
+      "atr_pct": 0.9161944695905551,
       "candle_count": 499,
-      "close": 81583.97,
-      "ema200": 82043.05536507585,
-      "ema50": 82687.15098490144,
-      "ema_spread_pct": 0.785070249955333,
+      "close": 81960.01,
+      "ema200": 82023.36936096111,
+      "ema50": 82460.32218716049,
+      "ema_spread_pct": 0.5327174799129253,
       "evidence": {
         "dmi_sign": -1,
         "ema_sign": 0,
-        "obv_sign": 0,
-        "score": -1,
-        "timeframe_direction": "SIDEWAYS"
+        "obv_sign": -1,
+        "score": -2,
+        "timeframe_direction": "BEAR"
       },
-      "last_complete_candle_end": "2026-10-17T03:59:59.999000+00:00",
-      "maobv30": 112397.25768336678,
-      "mdi": 26.925537852725093,
-      "obv": 105039.31148600011,
-      "obv_direction": "UP",
+      "last_complete_candle_end": "2026-10-18T03:59:59.999000+00:00",
+      "maobv30": 108218.5380500334,
+      "mdi": 26.7382897822619,
+      "obv": 106009.54250300006,
+      "obv_direction": "DOWN",
       "obv_relation": "BELOW",
-      "pdi": 6.715048195084997
+      "pdi": 9.337796653605023
     }
   },
   "information_risk": "MEDIUM",
@@ -218,10 +218,10 @@
   },
   "quality_gate": "WARN",
   "raw_pack": {
-    "path": "data/raw/run-btc-radar-20261017T073101CEST.json",
-    "sha256": "864df3fac3b3ad0fc5191e3ac352b3dae8f396a3e1ccbdd480cbfc792c97b402"
+    "path": "data/raw/run-btc-radar-20261018T073103CEST.json",
+    "sha256": "b6e5b54cf0c66699486e9e9ae64961d7642cbf085261718716ac2354e65998c1"
   },
-  "run_id": "run-btc-radar-20261017T073101CEST",
+  "run_id": "run-btc-radar-20261018T073103CEST",
   "safety": {
     "execution_allowed": false,
     "human_gate_required": true,
@@ -239,15 +239,15 @@
   },
   "status": "COMPLETE",
   "ticker": {
-    "base_volume_24h": 24297.191773,
-    "change_24h_pct": -0.7253780872242044,
-    "high_24h": 82940.71,
-    "low_24h": 80809.25,
-    "open_24h": 82201.27,
-    "price": 81605.0,
-    "quote_volume_24h": 1988531871.955145,
-    "source_time_ms": 1792215060482,
-    "trade_count_24h": 395486
+    "base_volume_24h": 13121.007564,
+    "change_24h_pct": 0.19257398443721652,
+    "high_24h": 82077.95,
+    "low_24h": 80819.66,
+    "open_24h": 81605.0,
+    "price": 81762.15,
+    "quote_volume_24h": 1070113202.8679768,
+    "source_time_ms": 1792301463020,
+    "trade_count_24h": 160602
   },
   "timezone": "Europe/Prague"
 }
