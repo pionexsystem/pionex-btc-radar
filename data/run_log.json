@@ -1,18 +1,6 @@
 [
   {
     "character": "CONSOLIDATION",
-    "direction": "BULL",
-    "generated_at": "2026-09-25T07:30:58.702941+02:00",
-    "information_risk": "MEDIUM",
-    "quality_gate": "WARN",
-    "run_id": "run-btc-radar-20260925T073058CEST",
-    "signal_strength": "WEAK",
-    "source": "PIONEX",
-    "status": "COMPLETE",
-    "timeframe_tension": false
-  },
-  {
-    "character": "CONSOLIDATION",
     "direction": "SIDEWAYS",
     "generated_at": "2026-09-26T07:31:00.487832+02:00",
     "information_risk": "MEDIUM",
@@ -354,6 +342,18 @@
     "information_risk": "MEDIUM",
     "quality_gate": "WARN",
     "run_id": "run-btc-radar-20261024T073109CEST",
+    "signal_strength": "WEAK",
+    "source": "PIONEX",
+    "status": "COMPLETE",
+    "timeframe_tension": false
+  },
+  {
+    "character": "CONSOLIDATION",
+    "direction": "BEAR",
+    "generated_at": "2026-10-25T07:31:05.644288+01:00",
+    "information_risk": "MEDIUM",
+    "quality_gate": "WARN",
+    "run_id": "run-btc-radar-20261025T073105CET",
     "signal_strength": "WEAK",
     "source": "PIONEX",
     "status": "COMPLETE",
