@@ -24,14 +24,14 @@
     "pdi": 14.157823876397844
   },
   "4h": {
-    "adx": 23.663761306170837,
-    "atr14": 737.7478745293744,
-    "atr_pct": 0.958897928422758,
+    "adx": 25.724057150340055,
+    "atr14": 739.8465977772755,
+    "atr_pct": 0.9629712805556554,
     "candle_count": 499,
-    "close": 76937.06,
-    "ema200": 80720.24867490416,
-    "ema50": 78840.28602607954,
-    "ema_spread_pct": -2.328985204686429,
+    "close": 76829.56,
+    "ema200": 80681.55175572525,
+    "ema50": 78761.43402506194,
+    "ema_spread_pct": -2.379872088326618,
     "evidence": {
       "dmi_sign": -1,
       "ema_sign": -1,
@@ -39,16 +39,16 @@
       "score": -3,
       "timeframe_direction": "BEAR"
     },
-    "last_complete_candle_end": "2026-11-03T03:59:59.999000+00:00",
-    "maobv30": 121108.7082794335,
-    "mdi": 26.736615133578567,
-    "obv": 113378.38164200017,
+    "last_complete_candle_end": "2026-11-03T07:59:59.999000+00:00",
+    "maobv30": 117005.08398580019,
+    "mdi": 26.230867476548845,
+    "obv": 106702.44516300019,
     "obv_direction": "DOWN",
     "obv_relation": "BELOW",
-    "pdi": 13.32346719820838
+    "pdi": 12.33669590356549
   },
   "classification": {
-    "character": "CONSOLIDATION",
+    "character": "TREND",
     "confirmation_count": 3,
     "confirmations": {
       "dmi_adx": true,
@@ -75,7 +75,7 @@
   "market": "SPOT",
   "method_id": "BTCRADAR_OHLCV_V0_2",
   "method_version": "0.2.0",
-  "run_id": "run-btc-radar-20261103T073104CET",
+  "run_id": "run-btc-radar-20261103T113656CET",
   "source": "PIONEX",
-  "ticker_price": 76788.0
+  "ticker_price": 77010.93
 }
